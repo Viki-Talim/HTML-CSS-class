@@ -1,20 +1,29 @@
+  /* @media screen and (max-width: 720px) */
+  html{
+    font-size: 10px;
+  }
+  
+    
   
         h1, h2, h3 {
             
-        color: rgb(139, 0, 120);
+        color: green;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
         font-size: 35;
-        color: rgb(185, 19, 19);
-        border: 1px solid rgb(255, 0, 0);
+        color: darkgreen
+        border: 1px solid rgb(190, 32, 32);
       
         }
 
         div {
-            background-color: rgb (217, 217, 217);
-            border: 1px solid rgba(190, 32, 32, 0.5);
+            background-color:rgba(128, 128, 128, 0.521);
+            border: 1px solid rgb(190, 32, 32);
             border-radius: 16px;
             box-shadow: 5px 5px 70px 2px darkgrey;(115, 115, 0.5);
             padding: 10px;
             margin: 10px;
         }
-    
+    #intro{
+        color: red;
+        font-size: 1.5rem;
+    }
