@@ -1,0 +1,44 @@
+div {
+  background-color: lightblue;
+}
+div:nth-child(1) {
+  background-color: gold;
+}
+div:nth-child(2) {
+  background-color: silver;
+}
+div:nth-child(3) {
+  background-color: rgba(194, 179, 96, 0.705);
+}
+ul li:nth-child(3) {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: aqua;
+}
+ul li:last-child {
+  background-color: aqua;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.link:hover {
+  color: white;
+  padding: 12px;
+  transition: 0.3s;
+}
+a:visited {
+  color: rgb(226, 43, 43);
+}
+button:hover{
+    /* background-color: darkgrey; */
+}
+button:active {
+    color:aqua
+}
+input{
+    transition: 0.3s;
+}
+input :focus{
+    background: linear-gradient (lightblue, cyan);
+    /* border: 1px solid lightgrey;
+    outline: lightgray; */
+}
