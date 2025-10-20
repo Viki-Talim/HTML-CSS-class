@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    border: 1px solid black;
+    /* po main axis */
+    justify-content: flex-start;
+       /* po cross axis */
+    align-items: flex-start;
+ flex-wrap: wrap;
+    gap: 10px;
+}
+.block{
+    border: 1px solid black;
+width: 150px;
+height: 150px;
+}
+#block2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
